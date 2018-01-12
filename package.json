@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "geth-init": "geth --datadir=./chaindata/ init ./chaindata/genesis.json",
+    "geth": "geth --datadir=./chaindata/",
+    "mist-run": "/Applications/Mist.app/Contents/MacOS/Mist --rpc ./chaindata/geth.ipc"
   },
   "keywords": [],
   "author": "",
