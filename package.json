@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "geth-init": "geth --datadir=./chaindata/ init ./genesis.json",
     "geth": "geth --datadir=./chaindata/",
+    "geth-attach": "geth attach ipc:./chaindata/geth.ipc",
     "mist-run": "/Applications/Mist.app/Contents/MacOS/Mist --rpc ./chaindata/geth.ipc"
   },
   "keywords": [],
